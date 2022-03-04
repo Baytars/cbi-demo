@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="Demo" label="DSL">
+  <validationSets description="Demo" label="Plugins">
+    <contributions label="Emmet">
+      <repositories location="http://download.emmet.io/eclipse/updates/">
+        <features name="io.emmet.eclipse.feature.group" versionRange="1.0.0.201401132323"/>
+      </repositories>
+    </contributions>
+    <contributions label="Eclipse Latest Release">
+      <repositories location="https://mirrors.tuna.tsinghua.edu.cn/eclipse/releases/latest/">
+        <products name="epp.package.dsl" versionRange="4.22.0.20211202-1200"/>
+      </repositories>
+    </contributions>
+    <contributions label="Aptana">
+      <repositories location="https://preview.appcelerator.com/aptana/studio3/plugin/update/rc/">
+        <bundles name="com.aptana.preview" versionRange="3.0.0.1384475641"/>
+      </repositories>
+    </contributions>
+  </validationSets>
+  <configurations architecture="x86_64"/>
+</aggregator:Aggregation>
